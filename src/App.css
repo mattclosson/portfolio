@@ -1,38 +1,241 @@
+:root {
+  --animate-delay: .5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 .App {
+  max-width: 870px;
+  margin: 0 auto;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  padding-bottom: 150px;
+}
+
+
+.nav-container {
+  position: fixed;
+  bottom: 150px;
+  right: 190px;
+}
+
+.nav-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-container ul {
+  list-style: none;
+}
+
+.nav-container ul li {
+  margin-bottom: 10px;
+}
+
+.confirm-email {
+  background-color: #309d30;
+  padding: 27px 16px;
+  width: 440px;
+  margin: 0 auto;
+  font-size: 18px;
   text-align: center;
+  border-radius: 10px;
+  margin-top: 112px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.email-error {
+  background-color: #E54C4C;
+  color: #fff;
+  padding: 19px 20px;
+  margin: 0 auto;
+  width: 300px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-name {
+  align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header-name h1 {
+  font-size: 68px;
+  font-weight: 700;
+  font-family: mr-eaves-xl-modern, sans-serif;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+.description h2 {
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: 100;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.project {
+  position: relative;
+  background-color: rgb(255, 255, 255, .17);
+  border-radius: 0 0 18px 18px;
+  padding: 15px 20px;
+  margin-top: -3px;
+}
+
+.project h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.project span {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 12px;
+  position: absolute;
+  top: 16px;
+  right: 15px;
+}
+
+.project span a {
+  margin-left: 7px;
+  color: #fff;
+}
+
+.project p {
+  margin-top: 4px;
+  margin-bottom: 7px;
+  line-height: 1.2;
+}
+
+.project a {
+  font-size: 22px;
+}
+
+.contact-container {
+  margin-top: 80px;
+  display: block;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 60px;
+  border: 0;
+  background-color: #414245;
+  border: 1px solid #414245;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  font-size: 22px;
+  color: #fff;
+  box-sizing: border-box;
+  display: block;
+  font-family: mr-eaves-xl-modern, sans-serif;
+}
+
+input[type="text"]:focus {
+  background-color: #1B1C1F;
+  border: 1px solid #4C73E5;
+  outline: none;
+}
+
+.messagebox {
+  width: 100%;
+  border: 0;
+  background-color: #414245;
+  border: 1px solid #414245;
+  border-radius: 18px;
+  font-size: 18px;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  padding-left: 25px;
+  padding-top: 20px;
+  resize: none;
+  font-size: 22px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.messagebox:focus {
+  background-color: #1B1C1F;
+  border: 1px solid #4C73E5;
+  outline: none;
+}
+
+.submit-button {
+  display: block;
+  background-color: #4C73E5;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  float: right;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 11px;
+  padding: 15px 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+@media only screen and (max-width: 1400px) {
+  .nav-container {
+    position: fixed;
+    bottom: 50px;
+    right: 90px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 1180px) {
+  .nav-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .App {
+    padding: 30px;
+  }
+
+  .header-container {
+    display: block;
+  }
+
+  .header-container h1 {
+    text-align: center;
+  }
+
+  .header-container img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
   }
 }
