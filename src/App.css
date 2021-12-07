@@ -130,6 +130,20 @@ html {
   font-size: 22px;
 }
 
+.project ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.project ul li {
+  list-style-type: none;
+  color: #999;
+  display: inline-block;
+  margin-right: 6px;
+}
+
 .contact-container {
   margin-top: 80px;
   display: block;
