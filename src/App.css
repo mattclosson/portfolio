@@ -76,8 +76,8 @@ html {
   margin: 0 auto;
   display: block;
   text-align: center;
-  margin-top: 120px;
-  margin-bottom: 200px;
+  margin-top: 90px;
+  margin-bottom: 120px;
 }
 
 .description h2 {
@@ -86,10 +86,26 @@ html {
   font-weight: 100;
 }
 
+.skills {
+  font-size: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.project-container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  border-radius: 18px;
+  transform: scale(1.02);
 }
 
 .project {
@@ -98,6 +114,7 @@ html {
   border-radius: 0 0 18px 18px;
   padding: 15px 20px;
   margin-top: -3px;
+  height: 133px;
 }
 
 .project h2 {
@@ -111,8 +128,8 @@ html {
   margin-left: 12px;
   font-size: 12px;
   position: absolute;
-  top: 16px;
-  right: 15px;
+  top: 18px;
+  right: 17px;
 }
 
 .project span a {
@@ -142,6 +159,7 @@ html {
   color: #999;
   display: inline-block;
   margin-right: 6px;
+  text-shadow: 0 1px 0 #2e2e2e;
 }
 
 .contact-container {

@@ -9,7 +9,7 @@ function Project(props) {
                 <ul>
                     {tags.map((item, i) => (<li>{item}</li>))}
                 </ul>
-                <span><a href={props.github}><i class="fab fa-github"></i></a> <a href={props.livelink}><i class="fas fa-link"></i></a></span>
+                <span><a href={props.github} target="_blank"><i class="fab fa-github"></i></a> <a href={props.livelink} target="_blank"><i class="fas fa-link"></i></a></span>
             </div>
         </div>
     )
