@@ -17,7 +17,7 @@ function Projects() {
                     about="Visualize a binary search algorithm and compare it to a linear search." 
                     tags={binarytags} 
                     github="https://github.com/mattclosson/linear-binary-visualizer"
-                    livelink="https://romantic-hopper-55df86.netlify.app/"
+                    livelink="https://binary-linear-search.netlify.app/"
                 />
                 <Project 
                     img={bloggr} 
