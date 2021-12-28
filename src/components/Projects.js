@@ -1,16 +1,36 @@
 import Project from "./Project"
 import quizgame from "../quiz-game.png"
-import bloggr from "../bloggr.png"
+import paymo from "../paymo.png"
+import bloggr from "../bloggr.svg"
 import binary from "../binary-vis.png"
+import moviebox from "../moviebox.png"
 
 function Projects() {
+    const paymotags = ['Javascript', 'Express', 'React']
+    const movietags = ['Python', 'Masonite', 'Javascript', 'Recat']
     const quizgametags = ['jQuery']
     const bloggrtags = ['LiquidJS', 'ExpressJS', 'MongoDB']
     const binarytags = ['Javascript']
     return (
         <>
-            <h1>/projects</h1>
-            <div class="projects-container" id="projects">
+            <h1 style={{marginTop:"-30px", paddingTop:"30px"}} id="projects">/projects</h1>
+            <div class="projects-container">
+                <Project 
+                    img={paymo} 
+                    title="Paymo" 
+                    about="An app that allows you to create invoices and receive payments. Built with the Stripe API." 
+                    tags={paymotags} 
+                    github="https://github.com/mattclosson/quiz-game"
+                    livelink="https://seir-penguin-project-1-mattwclosson.vercel.app/"
+                />
+                <Project 
+                    img={moviebox} 
+                    title="Movie Box" 
+                    about="An app where users can review movies on a 1-5 star system." 
+                    tags={movietags} 
+                    github="https://github.com/mattclosson/quiz-game"
+                    livelink="https://seir-penguin-project-1-mattwclosson.vercel.app/"
+                />
                 <Project 
                     img={binary} 
                     title="Binary Search Visualizer" 

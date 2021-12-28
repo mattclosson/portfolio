@@ -242,6 +242,63 @@ input[type="text"]:focus {
   display: block;
 }
 
+.resume-page {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: mr-eaves-xl-modern,sans-serif;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.resume-page a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.resume-container {
+  background: white;
+  color: black;
+  border-radius: 25px;
+  min-height: 400px;
+  padding: 30px 30px 40px 30px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-header a {
+  margin-top: 8px;
+}
+
+.resume-container a {
+  color: #000;
+  font-weight: 500;
+}
+
+.resume-container h1 {
+  margin: 0;
+}
+
+.resume-container h2 {
+  margin-bottom: 0;
+}
+
+.resume-container h3 {
+  margin: 12px 0 0 0; 
+}
+
+.resume-container h4 {
+  margin: 3px 0 0 0;
+}
+
+.resume-container ul {
+  margin-top: 6px;
+  line-height: 1.28;
+}
 @media only screen and (max-width: 1400px) {
   .nav-container {
     position: fixed;
