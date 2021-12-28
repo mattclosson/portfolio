@@ -42,7 +42,7 @@ html {
   font-size: 18px;
   text-align: center;
   border-radius: 10px;
-  margin-top: 112px;
+  margin-top: 22px;
 }
 
 .email-error {
@@ -220,7 +220,7 @@ input[type="text"]:focus {
 
 .submit-button {
   display: block;
-  background-color: #4C73E5;
+  background-color: #396cff;
   color: #fff;
   border: 0;
   padding: 10px;

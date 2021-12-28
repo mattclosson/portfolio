@@ -20,8 +20,8 @@ function Projects() {
                     title="Paymo" 
                     about="An app that allows you to create invoices and receive payments. Built with the Stripe API." 
                     tags={paymotags} 
-                    github="https://github.com/mattclosson/quiz-game"
-                    livelink="https://seir-penguin-project-1-mattwclosson.vercel.app/"
+                    github="https://github.com/mattclosson/paymo-backend"
+                    livelink="https://mc-paymo.netlify.app/"
                 />
                 <Project 
                     img={moviebox} 
@@ -29,7 +29,7 @@ function Projects() {
                     about="An app where users can review movies on a 1-5 star system." 
                     tags={movietags} 
                     github="https://github.com/mattclosson/quiz-game"
-                    livelink="https://seir-penguin-project-1-mattwclosson.vercel.app/"
+                    livelink="https://mc-movie-box.netlify.app/"
                 />
                 <Project 
                     img={binary} 
@@ -45,7 +45,7 @@ function Projects() {
                     about="A simple blogging app that allows users to create and manage their blog posts." 
                     tags={bloggrtags} 
                     github="https://github.com/mattclosson/bloggr"
-                    livelink=""
+                    livelink="https://mc-bloggr.herokuapp.com/"
                 />
                 <Project 
                     img={quizgame} 

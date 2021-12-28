@@ -7,7 +7,7 @@ function Resume () {
             <div className="resume-container">
                 <div class="resume-header">
                     <h1>Matt Closson</h1>
-                    <a href="#">View PDF Version</a>
+                    <a href="/resume.pdf">View PDF Version</a>
                 </div>
                 <p>(410) 564-6960 | mattwclosson@gmail.com</p>
                 <p><a href="http://linkedin.com/in/matt-closson" target="_blank">LinkedIn</a> | <a href="http://github.com/mattclosson" target="_blank">Github</a></p>
