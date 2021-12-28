@@ -38,6 +38,12 @@ function Resume () {
                 <h2>Education</h2>
                 <h3>General Assembly</h3>
                 <h4>Software Engineering Immersive | Aug-Dec 2021</h4>
+                <ul>
+                    <li>Created projects and completed coding exercises using HTML, CSS, JavaScript, ReactJS, Node, MongoDB/Mongoose, Express, SQL, Python, and Flask</li>
+                    <li>Created full-stack web applications, using recursive algorithms and web forms</li>
+                    <li>Leveraged debugging strategies to ensure program integrity</li>
+                    <li>Plan, wrote, tested, deployed and launched a full-stack application</li>
+                </ul>
             </div>
         </div>
     )
