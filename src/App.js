@@ -3,8 +3,10 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './Pages/Home'
 import Resume from './Pages/Resume';
 import ScrollToTop from './utils/ScrollToTop';
+import { useState } from 'react';
 
 function App() {
+
   return (
     <ScrollToTop>
       <Routes>
