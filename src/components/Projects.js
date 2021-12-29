@@ -28,7 +28,7 @@ function Projects() {
                     title="Movie Box" 
                     about="An app where users can review movies on a 1-5 star system." 
                     tags={movietags} 
-                    github="https://github.com/mattclosson/quiz-game"
+                    github="https://github.com/mattclosson/movie-app-backend"
                     livelink="https://mc-movie-box.netlify.app/"
                 />
                 <Project 
