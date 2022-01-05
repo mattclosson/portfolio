@@ -20,7 +20,7 @@ function Projects() {
                     title="Paymo" 
                     about="An app that allows you to create invoices and receive payments. Built with the Stripe API." 
                     tags={paymotags} 
-                    github="https://github.com/mattclosson/paymo-backend"
+                    github="https://github.com/mattclosson/paymo_backend"
                     livelink="https://mc-paymo.netlify.app/"
                 />
                 <Project 
